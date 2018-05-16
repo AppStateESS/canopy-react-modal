@@ -1,16 +1,19 @@
 {
   "name": "canopy-react-modal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bootstrap modal for AppStateESS/Canopy",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack -d --watch",
-    "build": "webpack -p"
+    "dev": "webpack --mode=development --watch",
+    "build": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AppStateESS/canopy-react-modal.git"
+  },
+  "engines": {
+    "node": ">=6.9.4"
   },
   "keywords": [
     "canopy",
