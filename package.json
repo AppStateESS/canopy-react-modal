@@ -1,0 +1,41 @@
+{
+  "name": "canopy-react-modal",
+  "version": "0.1.0",
+  "description": "Bootstrap modal for AppStateESS/Canopy",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AppStateESS/canopy-react-modal.git"
+  },
+  "keywords": [
+    "canopy",
+    "react"
+  ],
+  "author": "Matt McNaney <mcnaneym@appstate.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AppStateESS/canopy-react-modal/issues"
+  },
+  "homepage": "https://github.com/AppStateESS/canopy-react-modal#readme",
+  "peerDependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.1.2"
+  }
+}
